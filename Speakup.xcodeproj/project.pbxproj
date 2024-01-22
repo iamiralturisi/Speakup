@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC54774F2B5EA24E00C8A179 /* SpeakupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54774E2B5EA24E00C8A179 /* SpeakupApp.swift */; };
+		EC5477512B5EA24E00C8A179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5477502B5EA24E00C8A179 /* ContentView.swift */; };
+		EC5477532B5EA24E00C8A179 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5477522B5EA24E00C8A179 /* Item.swift */; };
+		EC5477552B5EA25000C8A179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5477542B5EA25000C8A179 /* Assets.xcassets */; };
+		EC5477582B5EA25000C8A179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5477572B5EA25000C8A179 /* Preview Assets.xcassets */; };
+		EC5477622B5EA25000C8A179 /* SpeakupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5477612B5EA25000C8A179 /* SpeakupTests.swift */; };
+		EC54776C2B5EA25000C8A179 /* SpeakupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54776B2B5EA25000C8A179 /* SpeakupUITests.swift */; };
+		EC54776E2B5EA25000C8A179 /* SpeakupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54776D2B5EA25000C8A179 /* SpeakupUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC54775E2B5EA25000C8A179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5477432B5EA24E00C8A179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC54774A2B5EA24E00C8A179;
+			remoteInfo = Speakup;
+		};
+		EC5477682B5EA25000C8A179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5477432B5EA24E00C8A179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC54774A2B5EA24E00C8A179;
+			remoteInfo = Speakup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC54774B2B5EA24E00C8A179 /* Speakup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speakup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54774E2B5EA24E00C8A179 /* SpeakupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakupApp.swift; sourceTree = "<group>"; };
+		EC5477502B5EA24E00C8A179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC5477522B5EA24E00C8A179 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EC5477542B5EA25000C8A179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC5477572B5EA25000C8A179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC54775D2B5EA25000C8A179 /* SpeakupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5477612B5EA25000C8A179 /* SpeakupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakupTests.swift; sourceTree = "<group>"; };
+		EC5477672B5EA25000C8A179 /* SpeakupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54776B2B5EA25000C8A179 /* SpeakupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakupUITests.swift; sourceTree = "<group>"; };
+		EC54776D2B5EA25000C8A179 /* SpeakupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5477482B5EA24E00C8A179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54775A2B5EA25000C8A179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5477642B5EA25000C8A179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5477422B5EA24E00C8A179 = {
+			isa = PBXGroup;
+			children = (
+				EC54774D2B5EA24E00C8A179 /* Speakup */,
+				EC5477602B5EA25000C8A179 /* SpeakupTests */,
+				EC54776A2B5EA25000C8A179 /* SpeakupUITests */,
+				EC54774C2B5EA24E00C8A179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC54774C2B5EA24E00C8A179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC54774B2B5EA24E00C8A179 /* Speakup.app */,
+				EC54775D2B5EA25000C8A179 /* SpeakupTests.xctest */,
+				EC5477672B5EA25000C8A179 /* SpeakupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC54774D2B5EA24E00C8A179 /* Speakup */ = {
+			isa = PBXGroup;
+			children = (
+				EC54774E2B5EA24E00C8A179 /* SpeakupApp.swift */,
+				EC5477502B5EA24E00C8A179 /* ContentView.swift */,
+				EC5477522B5EA24E00C8A179 /* Item.swift */,
+				EC5477542B5EA25000C8A179 /* Assets.xcassets */,
+				EC5477562B5EA25000C8A179 /* Preview Content */,
+			);
+			path = Speakup;
+			sourceTree = "<group>";
+		};
+		EC5477562B5EA25000C8A179 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC5477572B5EA25000C8A179 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5477602B5EA25000C8A179 /* SpeakupTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5477612B5EA25000C8A179 /* SpeakupTests.swift */,
+			);
+			path = SpeakupTests;
+			sourceTree = "<group>";
+		};
+		EC54776A2B5EA25000C8A179 /* SpeakupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC54776B2B5EA25000C8A179 /* SpeakupUITests.swift */,
+				EC54776D2B5EA25000C8A179 /* SpeakupUITestsLaunchTests.swift */,
+			);
+			path = SpeakupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC54774A2B5EA24E00C8A179 /* Speakup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5477712B5EA25000C8A179 /* Build configuration list for PBXNativeTarget "Speakup" */;
+			buildPhases = (
+				EC5477472B5EA24E00C8A179 /* Sources */,
+				EC5477482B5EA24E00C8A179 /* Frameworks */,
+				EC5477492B5EA24E00C8A179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speakup;
+			productName = Speakup;
+			productReference = EC54774B2B5EA24E00C8A179 /* Speakup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC54775C2B5EA25000C8A179 /* SpeakupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5477742B5EA25000C8A179 /* Build configuration list for PBXNativeTarget "SpeakupTests" */;
+			buildPhases = (
+				EC5477592B5EA25000C8A179 /* Sources */,
+				EC54775A2B5EA25000C8A179 /* Frameworks */,
+				EC54775B2B5EA25000C8A179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC54775F2B5EA25000C8A179 /* PBXTargetDependency */,
+			);
+			name = SpeakupTests;
+			productName = SpeakupTests;
+			productReference = EC54775D2B5EA25000C8A179 /* SpeakupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC5477662B5EA25000C8A179 /* SpeakupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5477772B5EA25000C8A179 /* Build configuration list for PBXNativeTarget "SpeakupUITests" */;
+			buildPhases = (
+				EC5477632B5EA25000C8A179 /* Sources */,
+				EC5477642B5EA25000C8A179 /* Frameworks */,
+				EC5477652B5EA25000C8A179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5477692B5EA25000C8A179 /* PBXTargetDependency */,
+			);
+			name = SpeakupUITests;
+			productName = SpeakupUITests;
+			productReference = EC5477672B5EA25000C8A179 /* SpeakupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5477432B5EA24E00C8A179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EC54774A2B5EA24E00C8A179 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EC54775C2B5EA25000C8A179 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EC54774A2B5EA24E00C8A179;
+					};
+					EC5477662B5EA25000C8A179 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EC54774A2B5EA24E00C8A179;
+					};
+				};
+			};
+			buildConfigurationList = EC5477462B5EA24E00C8A179 /* Build configuration list for PBXProject "Speakup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5477422B5EA24E00C8A179;
+			productRefGroup = EC54774C2B5EA24E00C8A179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC54774A2B5EA24E00C8A179 /* Speakup */,
+				EC54775C2B5EA25000C8A179 /* SpeakupTests */,
+				EC5477662B5EA25000C8A179 /* SpeakupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5477492B5EA24E00C8A179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5477582B5EA25000C8A179 /* Preview Assets.xcassets in Resources */,
+				EC5477552B5EA25000C8A179 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54775B2B5EA25000C8A179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5477652B5EA25000C8A179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5477472B5EA24E00C8A179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5477512B5EA24E00C8A179 /* ContentView.swift in Sources */,
+				EC5477532B5EA24E00C8A179 /* Item.swift in Sources */,
+				EC54774F2B5EA24E00C8A179 /* SpeakupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5477592B5EA25000C8A179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5477622B5EA25000C8A179 /* SpeakupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5477632B5EA25000C8A179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54776E2B5EA25000C8A179 /* SpeakupUITestsLaunchTests.swift in Sources */,
+				EC54776C2B5EA25000C8A179 /* SpeakupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC54775F2B5EA25000C8A179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC54774A2B5EA24E00C8A179 /* Speakup */;
+			targetProxy = EC54775E2B5EA25000C8A179 /* PBXContainerItemProxy */;
+		};
+		EC5477692B5EA25000C8A179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC54774A2B5EA24E00C8A179 /* Speakup */;
+			targetProxy = EC5477682B5EA25000C8A179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC54776F2B5EA25000C8A179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5477702B5EA25000C8A179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5477722B5EA25000C8A179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speakup/Preview Content\"";
+				DEVELOPMENT_TEAM = 5X9LVVU9NH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iamiralturisi.Speakup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5477732B5EA25000C8A179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Speakup/Preview Content\"";
+				DEVELOPMENT_TEAM = 5X9LVVU9NH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iamiralturisi.Speakup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC5477752B5EA25000C8A179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X9LVVU9NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iamiralturisi.SpeakupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speakup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speakup";
+			};
+			name = Debug;
+		};
+		EC5477762B5EA25000C8A179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X9LVVU9NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iamiralturisi.SpeakupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speakup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speakup";
+			};
+			name = Release;
+		};
+		EC5477782B5EA25000C8A179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X9LVVU9NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iamiralturisi.SpeakupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speakup;
+			};
+			name = Debug;
+		};
+		EC5477792B5EA25000C8A179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X9LVVU9NH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Iamiralturisi.SpeakupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speakup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5477462B5EA24E00C8A179 /* Build configuration list for PBXProject "Speakup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54776F2B5EA25000C8A179 /* Debug */,
+				EC5477702B5EA25000C8A179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5477712B5EA25000C8A179 /* Build configuration list for PBXNativeTarget "Speakup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5477722B5EA25000C8A179 /* Debug */,
+				EC5477732B5EA25000C8A179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5477742B5EA25000C8A179 /* Build configuration list for PBXNativeTarget "SpeakupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5477752B5EA25000C8A179 /* Debug */,
+				EC5477762B5EA25000C8A179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5477772B5EA25000C8A179 /* Build configuration list for PBXNativeTarget "SpeakupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5477782B5EA25000C8A179 /* Debug */,
+				EC5477792B5EA25000C8A179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5477432B5EA24E00C8A179 /* Project object */;
+}
